@@ -1,0 +1,2 @@
+codecarbon>=2.7
+matplotlib>=3.9
