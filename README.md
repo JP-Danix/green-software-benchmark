@@ -102,7 +102,8 @@ Son 7 fases: 1A, 1B, 2A, 2B, el punto muerto, 4A y 4B. Cada una imprime
 ```
 
 Imprime una tabla resumen en el terminal y genera **4 gráficas PNG** con
-matplotlib (todo local, nada web):
+matplotlib (todo local, nada web). Los PNG **no se incluyen en el repo**: cada
+quien los genera al correr `analisis.py`. Lo que muestra cada uno:
 
 | Gráfica | Qué muestra | Slide |
 |---|---|---|

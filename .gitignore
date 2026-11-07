@@ -10,6 +10,10 @@ __pycache__/
 # región, coordenadas). Cada quien genera el suyo al correr el benchmark.
 emissions.csv
 
+# Gráficas generadas por analisis.py: cada quien produce las suyas al correr
+# el análisis, no se publican en el repo.
+grafica_*.png
+
 # Sistema operativo
 .DS_Store
 Thumbs.db
