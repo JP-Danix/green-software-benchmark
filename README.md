@@ -64,14 +64,17 @@ Lo comprobarás en la medición: 2A es mucho más costoso que 2B.
 ## 3. Paso a paso
 
 ### Paso 0 — Requisitos
-- Python 3.13 con `py` o `python` (ya instalado: 3.13.2).
-- El proyecto ya tiene su entorno virtual (`*.venv*`) con CodeCarbon instalado.
+- Python 3.10 o superior, con el launcher `py` (en Windows) o `python3` (Linux/Mac).
+- **El entorno virtual NO viene en el repo** (es específico de cada máquina y pesa
+  cientos de MB). La primera vez —y en cada PC nuevo— créalo así:
 
-Si necesitas recrear el entorno:
 ```powershell
 py -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
+
+> En Linux/Mac el ejecutable se llama `.venv/bin/python` en vez de
+> `.venv\Scripts\python.exe`; en el resto de comandos cambia solo esa parte.
 
 ### Paso 1 — Prueba rápida
 
